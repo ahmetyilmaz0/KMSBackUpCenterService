@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/KMSBackUpCenterService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/KMSBackUpCenterService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="HashService.HashingTypes">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="MD5" />
+      <xs:enumeration value="SHA1" />
+      <xs:enumeration value="SHA256" />
+      <xs:enumeration value="SHA384" />
+      <xs:enumeration value="SHA512" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="HashService.HashingTypes" nillable="true" type="tns:HashService.HashingTypes" />
+</xs:schema>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="69b38215-ad37-48af-97b2-138a45b07e49" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1412/HashService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="HashService.disco" MetadataType="Disco" ID="137a9fbd-746b-4940-a167-9fad763e595e" SourceId="1" SourceUrl="http://localhost:1412/HashService.svc?disco" />
+    <MetadataFile FileName="HashService.xsd" MetadataType="Schema" ID="86f381b8-fbcb-4749-9a4d-fe803306af72" SourceId="1" SourceUrl="http://localhost:1412/HashService.svc?xsd=xsd0" />
+    <MetadataFile FileName="HashService1.xsd" MetadataType="Schema" ID="cc54485d-807c-4fe2-8d2f-d1bac8a8b22d" SourceId="1" SourceUrl="http://localhost:1412/HashService.svc?xsd=xsd1" />
+    <MetadataFile FileName="HashService.wsdl" MetadataType="Wsdl" ID="e92ee3e4-a7ea-40c7-9400-ba3054ef2f77" SourceId="1" SourceUrl="http://localhost:1412/HashService.svc?wsdl" />
+    <MetadataFile FileName="HashService2.xsd" MetadataType="Schema" ID="f08d1f90-76e1-4cd4-aa07-5a3f3b37b7a1" SourceId="1" SourceUrl="http://localhost:1412/HashService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
